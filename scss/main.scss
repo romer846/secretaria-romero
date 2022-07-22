@@ -1,0 +1,326 @@
+@import 'variables.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#boton {
+    padding: 0.5rem;
+    border: 1px solid $violet;
+    color: $violet;
+    border-radius: 0.5rem;
+    background-color: $white;
+    font-size: 1rem;
+    &:hover {
+        padding: 0.8rem;
+    }
+}
+
+.acceso {
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../imagenes/img5.jpg);
+    background-size: 100%;
+    background-position: 0% 40%;
+    padding-bottom: 10rem;
+    background-attachment:fixed;
+    color: $white;
+    margin-left: 0%;
+}
+
+.at-item  {
+    position: relative;
+    animation-name: ejemplo;
+    animation-duration: 3s;
+  }
+
+.card {
+    border-radius: 3rem;
+}
+
+.card-img-top {
+    color: $blue!important;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.card-body {
+    a {
+        border-style: none none solid none ;
+        font: 1em sans-serif;
+        color: violet;
+        text-decoration: none;
+        &:hover {
+            color: $violet;
+        }
+    }
+}
+
+.carousel-caption {
+    a {
+        color: $violet;
+        &:hover {
+            color: violet;
+            font-size: 1.1rem;
+            overflow: hidden;
+        }
+    }
+    h3 {
+        position: relative;
+    }
+}
+
+
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    .dropbtn {
+    background-color: $blue;
+    color: black!important;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    &:hover {
+        color: $violet!important;
+    }
+  }
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content {
+    a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+  }
+} 
+  
+  .dropdown-content a:hover {
+    text-shadow: 0.4px 0.4px $violet;
+    border-style: none none none solid;
+    border-color: $violet;
+
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+  .dropdown:hover .dropbtn {
+    background-color: $blue;
+}
+
+.body {
+    background-image: url("../imagenes/fondo2.png");
+    background-repeat: no-repeat;
+    background-color: $white;
+    background-position: 50% 0%;
+}
+.body2 {
+    background-image: url("../imagenes/fondo4.png");
+    background-repeat: no-repeat;
+    background-color: $white;
+}
+
+@keyframes ejemplo {
+  0%   {left: 700px;}
+  100% {left: 0px;}
+ 
+}
+ 
+.contiene {
+    border-style: none none solid none;
+    border-color: $blue;
+    
+}
+
+.carousel-item{
+    img {border-radius: 3em;
+    }
+}
+
+footer{
+    background-color: $black;
+    #img2, #img3 {
+        height: 1.5em;
+        width: 1.5em;
+        &:hover {
+            height: 2rem;
+            width: 2rem;
+        }
+    }
+    #img4 {
+        height: 5em;
+        width: 5em;
+    }
+}
+
+
+#nav-link {
+    color:$black;
+    font-size: 0.8rem;
+    
+}
+
+
+header {
+    .navbar {
+            background-color: $blue;
+            padding: 0%;
+            align-content: center;
+            a{
+                color: black;
+            font-family:'bitter', serif;
+            font-size: 0.8rem;
+        }
+    }
+    h1 {
+            font-size: 1rem;
+          }
+    
+    
+    img {
+        width: 12rem;
+        height: 5rem;
+    }
+        
+
+}
+
+h3 {
+    font-family:'bitter', serif;
+    color: $blue;
+    font-size: 2rem;
+}
+
+div.at-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.mb-6 {
+    margin-bottom: 8rem;
+}
+
+.mr-6 {
+    margin-right: 20rem;
+}
+
+.mt-6 {
+    margin-top: 18rem;
+}
+.pb-6 {
+    padding-bottom: 9rem;
+}
+
+.ml-sm-6 {
+    margin-left: 0rem;
+}
+
+.navbar-brand {
+    &:hover {
+        color: $violet!important;
+    }
+    
+}
+
+p {
+    color: $black;
+}
+
+path{
+    fill: currentColor!important;
+}
+
+pl-6{
+    padding-left: 15rem;
+}
+
+.table {
+    width: 8%!important;
+}
+
+.texto {
+    background-image: url("../imagenes/fondo4.png");
+    background-repeat: no-repeat;
+    padding-bottom: 18rem;
+    padding-top: 15rem;
+    background-position: 50% 99%;
+}
+
+td, th {
+    font-size: 0.5rem;
+}
+
+.white {
+    color: white!important;
+}
+
+.word1 {
+    margin-bottom: 5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+.word2 {
+    margin-bottom: 5rem;
+    margin-left: 0rem;
+    margin-right: 10rem;
+}
+
+@media screen and (min-width: 480px) {
+    
+    .carousel-caption {
+        margin-bottom: 10rem;
+        margin-left: 15rem;
+    }
+    
+
+    header{
+        h1{
+            font-size: 2rem;
+        }
+    }
+    h3 {
+        font-size: 3rem;
+        color: $blue;
+        }
+   
+    .ml-sm-6 {
+        margin-left: 5rem;
+    }
+
+    .table {
+        width: 100%!important;
+    }
+
+    td, th {
+        font-size: 1rem;
+    }
+      
+    .word1 {
+        margin-bottom: 12rem;
+        margin-left: 9rem;
+        margin-right: 10rem;
+    }
+    .word2 {
+        margin-bottom: 9rem;
+        margin-left: 0rem;
+        margin-right: 30rem;
+    }
+
+ }

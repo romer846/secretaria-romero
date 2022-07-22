@@ -1,0 +1,58 @@
+/* .at-item  {
+    position: relative;
+    animation-name: ejemplo;
+    animation-duration: 3s;
+  }
+
+
+@keyframes ejemplo {
+  0%   {left: 600px;}
+  100% {left: 0px;}
+ 
+}
+
+
+
+main  {
+  background-color: #f7f3f5ff;
+}
+
+#nav-link {
+  color: black;
+}
+
+header h1 {
+  font-family:'bitter', serif;
+  font-size: 1.5rem;
+}
+
+
+header img {
+  width: 12rem;
+  height: 5rem;
+}
+
+
+header .navbar {
+  background-color: #70d2ffff;
+  background-image: linear-gradient(to right #70d2ffff, #70d2ffff, #5d53caff);
+}
+
+header .navbar a{
+  color: black;
+  font-family:'bitter', serif;
+}
+
+div.at-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  header h1{
+    font-size: 1.7rem;
+
+  }
+  } */

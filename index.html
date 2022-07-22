@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./imagenes/fav2.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap"
+    rel="stylesheet">
+    <title>Secretaria de asuntos docentes de Moreno|página de inicio</title>
+    <meta name="description"
+    content="La secretaria de asuntos docentes de Moreno es un órgano desconcentrado
+     de conducción técnico-administrativo y de gestión
+      de los asuntos docentes.">
+    <meta name="keywords"
+    content="secretaria, tramites, docentes, inscripciones, acto público, Buenos Aires, Moreno">
+</head>
+
+<body class="body">
+
+    <header>
+   
+        
+       
+
+      <nav class="navbar navbar-expand-md navbar-light" height="7rem">
+        <a class="navbar-brand ml-5" href="index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+        data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              
+              <!-- menu desplegable-->
+
+                 <div class="dropdown">
+                  <button class="dropbtn nav-link" >Inscripciones</button>
+                  <div class="dropdown-content">
+                    <a href="./paginas/inscripcionesdoc.html">Docentes</a>
+                    <a href="./paginas/inscripcionjer.html">Jerarquicos</a>
+                  </div>
+                </div>   
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="dropbtn nav-link" >Actos públicos</button>
+                <div class="dropdown-content">
+                  <a href="./paginas/actosPdoc.html">Docentes</a>
+                  <a href="./paginas/actosPser.html">Servicios</a>
+                </div>
+              </div> 
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="dropbtn nav-link" >Tramites</button>
+                <div class="dropdown-content">
+                  <a href="./paginas/tramitesdoc.html">Docentes</a>
+                  <a href="./paginas/tramitesser.html">Servicios</a>
+                </div>
+              </div> 
+            </li>  
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="dropbtn nav-link" >Acciones estatutarias</button>
+                <div class="dropdown-content">
+                  <a href="./paginas/accionesdoc.html">Docentes</a>
+                  <a href="./paginas/accionesser.html">Servicios</a>
+                </div>
+              </div> 
+              </li> 
+          </ul>
+        </div>  
+      </nav>      
+          
+          
+     <!-- logo y h1 -->
+        <div class="continer m-3 align-content-center  mb-6 pt-3 ml-5">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-12 col-md-5 ">
+                    <img src="./imagenes/logosad.png" alt="logo sad">
+                </div >
+
+                <div class="col-12 col-md-6 align-content-end justify-content-start
+                 ml-0 mb-4 at-conteiner">
+                    <h1 class="align-content-end mt-4 at-item">
+                        Bienvenidos a la SAD de Moreno.</h1>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- Carousel de imagenes desktop-->
+        <div id="demo" class="carousel slide d-none d-sm-block" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner ml-4">
+              <div class="carousel-item active ml-5">
+                <img src="./imagenes/actop.jpg" alt="Escritorio vacio" width="1080" 
+                height="450">
+                <div class="carousel-caption">
+                  <h3 class="mr-6 pl-6">Sitio web de la SAD de Moreno.</h3>
+                  <a class="nav-link mr-6 pl-6" href="#texto">
+                    Más de nosotros.</a>
+                </div>   
+              </div>
+              <div class="carousel-item ml-5">
+                <img src="./imagenes/img3.jpg" alt="Mesa con lampara" width="1080" height="450">
+                <div class="carousel-caption word1">
+                  <h3>Accesos directos.</h3>
+                  <a class="nav-link" href="#accesos">Secciones más visitadas.</a>
+                </div>   
+              </div>
+              <div class="carousel-item ml-5">
+                <img src="./imagenes/img4.jpg" alt="Mesa con notebook" width="1080" height="450">
+                <div class="carousel-caption word2">
+                  <h3>Pedidos APD</h3>
+                  <a class="nav-link" href="./paginas/actosPser.html">
+                    Pedido de cargos al APD.</a>
+                </div>   
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+
+
+
+          <!-- Carousel de imagenes mobile-->
+          <div  id="demo" class="carousel slide d-block d-sm-none" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner  ml-4" id="domo">
+              <div class="carousel-item active ml-0">
+                <img src="./imagenes/actop.jpg" alt="Escritorio vacio" width="99%"
+                height="350">
+                <div class="carousel-caption word0">
+                  <h3 >SAD Moreno.</h3>
+                  <a class="nav-link mb-6" href="#accesos">Mas de nosotros.</a>
+                </div>   
+              </div>
+              <div class="carousel-item ml-0">
+                <img src="./imagenes/img3.jpg" alt="Escritorio con lampara"  width="99%"
+                height="350">
+                <div class="carousel-caption word1">
+                  <h3>Accesos directos.</h3>
+                  <a class="nav-link" href="#accesos">Secciones más visitadas.</a>
+                </div>   
+              </div>
+              <div class="carousel-item ml-0">
+                <img src="./imagenes/img4.jpg" alt="Escritorio con notebook" width="99%"
+                height="350">
+                <div class="carousel-caption word2">
+                  <h3>Pedidos APD</h3>
+                  <a class="nav-link" href="./paginas/actosPser.html">
+                    Pedido de cargos al APD.</a>
+                </div>   
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>              
+
+<!--Más sobre SAD-->
+
+          <div class="texto col-12" id="texto">
+          <div class="container pb-6 col-10 col-sm-6">
+
+            <h4 class="font-weight-bold margin-top3">
+              Plataforma digital de la S.A.D. de Moreno.</h4>
+                  
+                  <p class="widthp">Este es un espacio creado 
+                    para transmitir toda la información de las SAD al publico de 
+                      manera que puedan acceder a ella de forma remota. 
+                      Aquí podras encontrar acceso directyo 
+                      al acto público, reclamos personales y escuelas del 
+                      distrito de moreno.Este es un espacio creado poara 
+                      transmitir toda la información de las SAD al publico d
+                      e manera que puedan acceder a ella de forma remota. 
+                      Aquí podras encontrar acceso directyo 
+                      al acto público, reclamos personales y escuelas del 
+                      distrito de moreno.Este es un espacio creado poara 
+                      transmitir toda la información de las SAD al publico d
+                      e manera que puedan acceder a ella de forma remota. 
+                      Aquí podras encontrar acceso directyo 
+                      al acto público, reclamos personales y escuelas del 
+                      distrito de moreno.
+                        
+                  </p>
+    
+          </div>
+          </div>
+
+
+          <!-- titulo Acceso-->
+          <div>
+          <div class="containercol-8 pt-4 mt-4">
+
+            <div class="row mt-4 justify-content-center">
+            <div class="col-8 ">
+            <h3>
+              Accesos directos
+            </h3>
+          </div>
+          </div>
+          </div>
+
+ 
+          <!--cards-->
+
+          <!--docentes-->
+          
+          <div class="container col-8 justify-content-center mb-3 mt-5" id="accesos">
+
+            <div class="row contiene col-9 justify-content-center titulo1 mb-4">
+            <div class="col-4 ">
+            <h5>
+              Docentes
+            </h5>
+          </div>
+          </div>
+          </div>
+
+          <div class="conteiner ml-sm-6">
+            <div class="row col-sm-8 offset-sm-1 col-12">
+
+              <div class="col-sm-3  col-6 mt-3 mt-sm-0 justify-content-center">
+                <div class="card pt-3 " style="width:100px height:50px">
+                  <img class="card-img-top" src="./imagenes/pizarron.png"
+                   alt="pizarrón"  style="width:3rem">
+                  <div class="card-body">
+                    <h5 class="card-title">Portal ABC</h5>
+                    <p class="card-text" style=" width: 100%;">
+                      ingreso y registro en portal ABC.</p>
+                    <a href="">Acceder</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-3  col-6 mt-3 mt-sm-0 justify-content-center">
+                <div class="card pt-3 " style="width:100px height:50px">
+                  <img class="card-img-top" src="./imagenes/pantalla.png"
+                   alt="pizarrón"  style="width:3rem">
+                  <div class="card-body">
+                    <h5 class="card-title">Acto público digital</h5>
+                    <p class="card-text" style=" width: 100%;">
+                      Postularme a APD.</p>
+                    <a href="">Acceder</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-3 col-6 mt-3 mt-sm-0 justify-content-center">
+                <div class="card pt-3 " style="width:100px height:50px">
+                  <img class="card-img-top" src="./imagenes/altavoz.png"
+                   alt="pizarrón"  style="width:3rem">
+                  <div class="card-body">
+                    <h5 class="card-title">Difusiones</h5>
+                    <p class="card-text" style=" width: 100%;">
+                      Visualizar últimas difusiones.</p>
+                    <a href="./paginas/difusiones.html">Acceder</a>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-sm-3 col-6 mt-3 mt-sm-0 justify-content-center">
+                <div class="card pt-3 " style="width:100px height:60px">
+                  <img class="card-img-top" src="./imagenes/escuela.png"
+                   alt="pizarrón"  style="width:3rem">
+                  <div class="card-body">
+                    <h5 class="card-title">Direcciones</h5>
+                    <p class="card-text" style=" width: 100%;">
+                      Dirección de escuelas (Moreno).</p>
+                    <a href="">Acceder</a>
+                  </div>
+                </div>
+              </div>
+
+   
+            </div>
+          </div>
+
+          <!--jerarquicos-->
+
+          <div class="container  col-8 mb-3 mt-5">
+
+            <div class="row col-9 contiene justify-content-center mb-4">
+            <div class="col-4 ">
+            <h5>
+              Servicios
+            </h5>
+          </div>
+          </div>
+          </div>
+
+          
+
+          <div class="conteiner ml-sm-6 pb-6">
+            <div class="row col-sm-8 offset-sm-1 col-12">
+
+              <div class="col-sm-3  col-6 mt-3 mt-sm-0 justify-content-center">
+                <div class="card pt-3 " style="width:100px height:60px">
+                  <img class="card-img-top" src="./imagenes/pizarron2.png"
+                   alt="pizarrón"  style="width:3rem">
+                  <div class="card-body">
+                    <h5 class="card-title">Pedidos de cargos</h5>
+                    <p class="card-text" style=" width: 100%;">
+                      Pedidos de cargos a acto público digital.</p>
+                    <a href="">Acceder</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-3 col-6 mt-2 mt-sm-0 justify-content-center">
+                <div class="card pt-1 " style="width:100px height:60px">
+                  <img class="card-img-top" src="./imagenes/campana.png"
+                   alt="pizarrón"  style="width:3rem">
+                  <div class="card-body">
+                    <h5 class="card-title">Difusión</h5>
+                    <p class="card-text" style=" width: 100%;">
+                      Solicitud de publicación difuciones a SAD.</p>
+                    <a href="">Acceder</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-3 col-6 mt-3 mt-sm-0 justify-content-center">
+                <div class="card pt-3 " style="width:100px height:60px">
+                  <img class="card-img-top" src="./imagenes/flechas.png"
+                   alt="pizarrón"  style="width:3rem">
+                  <div class="card-body">
+                    <h5 class="card-title">Contralor</h5>
+                    <p class="card-text" style=" width: 100%;">
+                      Altas y ceses en SAD de los docentes en el contralor.</p>
+                    <a href="">Acceder</a>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-sm-3  col-6 mt-3 mt-sm-0 justify-content-center">
+                
+              </div>
+
+              
+   
+            </div>
+          </div>
+          </div>
+         
+    </main>
+    
+
+
+    <!--footer-->
+    <footer >
+      <div class="conteiner-fluid p-2  bg-secondary text-white">
+        <div class="row pt-3">
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <h4>SAD Moreno</h4>
+            <div>
+              <p>Copyright® 2022</p>
+            </div>
+            <div>
+              <p>Corvalán 1154, Moreno</p>
+            </div>
+          </div>
+<div class="col-12 col-md-6 col-lg-3">
+
+            <h5>Diseñado por:</h5>
+        
+              <p>Diseños SADyC</p>
+          </div>
+
+<div class="col-12 col-md-6 col-lg-3">
+          <div class="img2 margin-left2 d-none d-lg-block">
+            <img src="imagenes/fav2.png" id="img4" alt="logo nuevo de SAD"></div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+
+            <h5>Contactos</h5>
+            <a href="#"><img src="./imagenes/facebook.svg"
+               id = "img2" 
+              alt="icono facebook"></a>
+            <a href="#"><img src="./imagenes/mail.svg" id = "img3" 
+              alt="icono gmail"></div></a>
+          </div>
+            
+
+        </div>
+
+
+      </div>
+
+  </footer>
+</body>
+</html>

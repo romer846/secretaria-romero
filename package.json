@@ -1,0 +1,24 @@
+{
+  "author": "Nombre e Email",
+  "description": "Descripcion de mi Package",
+  "license": "MIT",
+  "name": "proyecto_final",
+  "scripts": {
+    "watch:css": "nodemon -e scss -x \"npm run build:css\"",
+    "build:css": "node-sass --output-style compressed scss/main.scss css/style.css"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.18"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romer846/Coder_desarrolloWEB_proyectoFinal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/romer846/Coder_desarrolloWEB_proyectoFinal/issues"
+  },
+  "homepage": "https://github.com/romer846/Coder_desarrolloWEB_proyectoFinal#readme"
+}
